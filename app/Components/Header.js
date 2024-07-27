@@ -3,32 +3,24 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <div class="navbardiv">
-        <div class="leftnav">
-          <p class="leftnavtext">
-            <a class="navlink" href="home.html">
+      <div className="flex flex-row justify-between">
+        <div className="flex-1">
+          <p className="text-xl mt-4 ml-10 cursor-pointer text-white">
               clintgeorge.
-            </a>
           </p>
         </div>
-        <div class="rightnav">
-          <ul class="navmenubutton buttonlink">
+        <div className="flex-1">
+          <ul className="flex justify-evenly buttonlink mt-5">
             <li>
-              <a class="navlink" href="home.html">
                 H O M E
-              </a>
             </li>
             <li>
-              <a class="navlink" href="home.html">
                 A B O U T &nbsp; M E
-              </a>
             </li>
             <li>
-              <a class="navlink" href="home.html">
                 C O N T A C T
-              </a>
             </li>
-            <button class="themebtn">Theme</button>
+            <button>Theme</button>
           </ul>
         </div>
       </div>
