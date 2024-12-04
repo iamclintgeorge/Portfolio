@@ -6,7 +6,7 @@ const Herosec = () => {
       <div className="flex flex-row">
         <div>
           <img
-            className="w-96 mt-10 ml-20 grayscale"
+            className="w-[50vw] mt-10 ml-20 grayscale"
             src="/Clintphoto.jpeg"
             alt="Profile Picture"
           />
