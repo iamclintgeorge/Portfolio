@@ -4,13 +4,13 @@ const Aboutsec = () => {
   return (
     <>
       <div>
-        <p class="section1dsn">About Me</p>
-        <div class="section1div">
-          <div class="leftsection1">
+        <p className="relative text-9xl">About Me</p>
+        <div className="flex flex-row">
+          <div className="flex-1 text-xl">
             <p>01-Introduction</p>
-            <div class="designline2"></div>
+            <div className="mt-56 h-5 w-56 bg-slate-200"></div>
           </div>
-          <div class="rightsection1">
+          <div className="flex-1 mr-52">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

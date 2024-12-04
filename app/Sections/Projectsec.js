@@ -3,43 +3,47 @@ import React from "react";
 const Projectsec = () => {
   return (
     <>
-      <div class="section2">
-        <div class="section2left">
-          <p class="section2txt">02-PROJECTS</p>
+      <div className="flex flex-row">
+        <div className="flex-1">
+          <p className="section2txt">02-PROJECTS</p>
         </div>
-        <div class="projecttbl">
-          <div class="projectbg">
-            {/* <img class="projimg" src="Images/acadsite"> */}
-            <div class="projdsn"></div>
-            <p class="projdate">2023 - 2024</p>
-            <p class="projtitle">ACADEMIC CALENDER WITH INTEGRATED CHATBOT</p>
-            <button class="projbtn">CHECK PROJECT</button>
+        <div className="projecttbl">
+          <div className="projectbg">
+            {/* <img className="projimg" src="Images/acadsite"> */}
+            <div className="projdsn"></div>
+            <p className="projdate">2023 - 2024</p>
+            <p className="projtitle">
+              ACADEMIC CALENDER WITH INTEGRATED CHATBOT
+            </p>
+            <button className="projbtn">CHECK PROJECT</button>
           </div>
-          <div class="projectbg">
-            {/* <img class="projimg" src="Images/fcritproj"> */}
-            <div class="projdsn"></div>
-            <p class="projdate">2023 - 2024</p>
-            <p class="projtitle">FCRIT FEE MANAGEMENT SYSTEM</p>
-            <button class="projbtn">CHECK PROJECT</button>
+          <div className="projectbg">
+            {/* <img className="projimg" src="Images/fcritproj"> */}
+            <div className="projdsn"></div>
+            <p className="projdate">2023 - 2024</p>
+            <p className="projtitle">FCRIT FEE MANAGEMENT SYSTEM</p>
+            <button className="projbtn">CHECK PROJECT</button>
           </div>
-          <div class="projectbg1">
-            {/* <img class="projimg" src="Images/fcritproj"> */}
-            <div class="projdsn"></div>
-            <p class="projdate">2023 - 2024</p>
-            <p class="projtitle">FCRIT FEE MANAGEMENT SYSTEM</p>
-            <button class="projbtn">CHECK PROJECT</button>
+          <div className="projectbg1">
+            {/* <img className="projimg" src="Images/fcritproj"> */}
+            <div className="projdsn"></div>
+            <p className="projdate">2023 - 2024</p>
+            <p className="projtitle">FCRIT FEE MANAGEMENT SYSTEM</p>
+            <button className="projbtn">CHECK PROJECT</button>
           </div>
-          <div class="projectbg1">
-            {/* <img class="projimg" src="Images/acadsite"> */}
-            <div class="projdsn"></div>
-            <p class="projdate">2023 - 2024</p>
-            <p class="projtitle">ACADEMIC CALENDER WITH INTEGRATED CHATBOT</p>
-            <button class="projbtn">CHECK PROJECT</button>
+          <div className="projectbg1">
+            {/* <img className="projimg" src="Images/acadsite"> */}
+            <div className="projdsn"></div>
+            <p className="projdate">2023 - 2024</p>
+            <p className="projtitle">
+              ACADEMIC CALENDER WITH INTEGRATED CHATBOT
+            </p>
+            <button className="projbtn">CHECK PROJECT</button>
           </div>
         </div>
       </div>
 
-      <button class="projexpbtn">EXPLORE OTHER PROJECTS</button>
+      <button className="projexpbtn">EXPLORE OTHER PROJECTS</button>
     </>
   );
 };
