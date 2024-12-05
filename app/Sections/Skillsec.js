@@ -3,32 +3,44 @@ import React from "react";
 const Skillsec = () => {
   return (
     <>
-      <div class="section3">
-        <div class="designline3"></div>
+      <div className="mt-10">
+        <div className="mt-32 mb-14 h-5 w-56 bg-slate-200 ml-auto"></div>
         <div>
-          <p class="section3title">03 - Skills and Experience</p>
+          <p className="font-kanit font-semibold text-[55px] ml-[100px] my-[100px]">
+            03 - Skills and Experience
+          </p>
         </div>
       </div>
-      <div class="secion3cont">
-        <div class="section3skill">
-          <div class="skltmlline"></div>
-          <div class="skltmldot"></div>
-          <div class="skltmldot1"></div>
+      <div className="flex flex-row relative">
+        <div className="flex-1 flex flex-row">
+          <div className="w-[1px] h-[700px] ml-[150px] relative bg-white"></div>
+          <div className="rounded-[50%] h-[20px] w-[20px] bg-white absolute mt-[20px] ml-[140px]"></div>
+          <div className="rounded-[50%] h-[20px] w-[20px] bg-white absolute mt-[380px] ml-[140px]"></div>
           <div>
-            <p class="sectionproglang">Programming Languages</p>
-            <p class="sectionframework">Frameworks / Libraries</p>
+            <p className="mt-[12px] ml-[40px] text-[25px] font-kanit">
+              Programming Languages
+            </p>
+            <p className="mt-[320px] ml-[40px] text-[25px] font-kanit">
+              Frameworks / Libraries
+            </p>
           </div>
         </div>
-        <div class="section3exp">
-          <div class="exptmlline"></div>
-          <div class="exptmldot"></div>
+        <div className="flex-1 flex flex-row">
+          <div className="w-[1px] h-[700px] ml-[150px] relative bg-white"></div>
+          <div className="rounded-[50%] h-[20px] w-[20px] bg-white absolute mt-[20px] ml-[140px]"></div>
           <div>
-            <p class="sectionproglang">Social Summer of Code</p>
+            <p className="mt-[12px] ml-[40px] text-[25px] font-kanit">
+              Social Summer of Code
+            </p>
           </div>
         </div>
       </div>
-      <p class="section3dsn1">Skills</p>
-      <p class="section3dsn2">Experience</p>
+      <p className="text-[#191919] text-[20vw] font-kanit relative mt-[-750px] p-0 z-[-1]">
+        Skills
+      </p>
+      <p className="text-[#191919] text-[20vw] font-kanit relative mt-[-100px] p-0 z-[-1]">
+        Experience
+      </p>
     </>
   );
 };
