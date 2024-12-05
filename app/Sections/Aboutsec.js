@@ -4,7 +4,7 @@ const Aboutsec = () => {
   return (
     <>
       <div>
-        <p className="relative text-9xl">About Me</p>
+        <p className="relative text-[21.5vw] opacity-5">About Me</p>
         <div className="flex flex-row">
           <div className="flex-1 text-xl">
             <p>01-Introduction</p>
