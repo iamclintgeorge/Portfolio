@@ -3,14 +3,15 @@ import React from "react";
 const Aboutsec = () => {
   return (
     <>
-      <div>
-        <p className="relative text-[21.5vw] opacity-5">About Me</p>
-        <div className="flex flex-row">
-          <div className="flex-1 text-xl">
+      <div className="mt-0">
+        <p className="relative text-[22.5vw] font-kanit text-[#191919]">
+          About Me
+        </p>
+        <div className="absolute flex flex-row mt-[-190px]">
+          <div className="flex-1 text-xl ml-28 font-kanit text-[40px] mr-0 font-semibold">
             <p>01-Introduction</p>
-            <div className="mt-56 h-5 w-56 bg-slate-200"></div>
           </div>
-          <div className="flex-1 mr-52">
+          <div className="flex-[1.5] mr-24 text-[20px] font-kanit text-justify">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -23,6 +24,7 @@ const Aboutsec = () => {
           </div>
         </div>
       </div>
+      <div className="mt-40 h-5 w-56 bg-slate-200"></div>
     </>
   );
 };

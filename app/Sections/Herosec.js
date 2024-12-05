@@ -16,8 +16,8 @@ const Herosec = () => {
             Crafting websites that seamlessly showcase your brand's unique
             value.
           </p>
-          <button className=" border py-3 px-6">GET IN TOUCH</button>
-          <div className="mt-32 mb-24 h-5 w-56 bg-slate-200 ml-auto"></div>
+          <button className=" border py-3 px-7">GET IN TOUCH</button>
+          <div className="mt-32 mb-8 h-5 w-56 bg-slate-200 ml-auto"></div>
         </div>
       </div>
     </>
