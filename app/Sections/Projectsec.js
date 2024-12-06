@@ -5,11 +5,11 @@ const Projectsec = () => {
     <>
       <div className="flex flex-row mt-28">
         <div className="flex-1">
-          <p className="font-kanit font-semibold text-[120px] text-[#949494] rotate-[270deg] mt-32 ml-[-270px] tracking-wider">
+          <p className="font-kanit font-semibold text-[120px] text-[#949494] rotate-[270deg] mt-96 ml-[-290px] tracking-wider text-nowrap mr-0">
             02-PROJECTS
           </p>
         </div>
-        <div className="flex-[4] flex-wrap flex-row flex">
+        <div className="flex-[4] flex-wrap flex-row flex ml-[-240px]">
           <div className="h-[450px] w-[420px] border m-6">
             <img
               className="h-[200px] w-[400px] ml-2 mt-2 mb-2"
@@ -77,7 +77,7 @@ const Projectsec = () => {
         </div>
       </div>
 
-      <button className="border mt-16 ml-[49vw] px-6 pt-3 pb-3 text-[13px]">
+      <button className="border mt-16 ml-[49vw] px-6 pt-3 pb-3 text-[13px] mb-10">
         EXPLORE OTHER PROJECTS
       </button>
     </>

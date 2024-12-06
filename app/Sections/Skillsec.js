@@ -3,8 +3,8 @@ import React from "react";
 const Skillsec = () => {
   return (
     <>
-      <div className="mt-10">
-        <div className="mt-32 mb-14 h-5 w-56 bg-slate-200 ml-auto"></div>
+      <div className="mt-0">
+        <div className="mt-20 mb-5 h-5 w-56 bg-slate-200 ml-auto"></div>
         <div>
           <p className="font-kanit font-semibold text-[55px] ml-[100px] my-[100px]">
             03 - Skills and Experience
