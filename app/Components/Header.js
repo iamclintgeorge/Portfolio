@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <div className="flex w-full m-0 p-0 flex-col sm:flex-row justify-between">
         <div className="flex-1">
-          <p className="text-[7vw] ml-1 text-center sm:ml-56text-[2.2vw] font-serif mt-10 cursor-pointer text-white">
+          <p className="text-[7vw] ml-1 text-center sm:ml-10 sm:text-[2.2vw] md:ml-2 font-serif mt-10 cursor-pointer text-white">
             clintgeorge.
           </p>
         </div>
