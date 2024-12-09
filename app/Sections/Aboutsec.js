@@ -11,7 +11,7 @@ const Aboutsec = () => {
           <div className="flex-1 text-xl text-nowrap sm:ml-28 font-kanit text-[40px] mr-0 font-semibold ">
             <p>01-Introduction</p>
           </div>
-          <div className="flex-[3] mt-12 sm:mt-0 mr-10 sm:mr-24 text-xl sm:text-[20px] font-kanit text-justify">
+          <div className="flex-[3] mt-12 sm:mt-0 mr-10 sm:mr-24 text-xl sm:text-[20px] font-kanit text-justify leading-relaxed hyphens-auto tracking-wide">
             <p className="hidden sm:block">
               I am a passionate and skilled full-stack developer with experience
               in building websites, mobile applications, and desktop software.
@@ -37,7 +37,7 @@ const Aboutsec = () => {
           </div>
         </div>
       </div>
-      <div className="mt-96 sm:mt-40 h-5 w-56 bg-slate-200"></div>
+      <div className="mt-[450px] sm:mt-40 h-5 w-56 bg-slate-200"></div>
     </>
   );
 };

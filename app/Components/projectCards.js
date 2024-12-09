@@ -3,7 +3,7 @@ import React from "react";
 const ProjectCards = (props) => {
   return (
     <>
-      <div className="h-[450px] w-[320px] sm:h-[450px] sm:w-[420px] border m-11 sm:m-6">
+      <div className="h-[450px] w-[320px] sm:h-[450px] sm:w-[420px] border mt-11 ml-4 sm:mt-6 sm:m-6">
         <img
           className="h-[160px] w-[300px] sm:h-[200px] sm:w-[400px] ml-2 mt-2 mb-2"
           src={props.url}
