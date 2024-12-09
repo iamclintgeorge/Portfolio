@@ -3,8 +3,11 @@ import React from "react";
 const ProjectCards = (props) => {
   return (
     <>
-      <div className="h-[450px] w-[420px] border m-6">
-        <img className="h-[200px] w-[400px] ml-2 mt-2 mb-2" src={props.url} />
+      <div className="h-[450px] w-[320px] sm:h-[450px] sm:w-[420px] border m-11 sm:m-6">
+        <img
+          className="h-[160px] w-[300px] sm:h-[200px] sm:w-[400px] ml-2 mt-2 mb-2"
+          src={props.url}
+        />
         <div className="h-[3px] w-[35px] bg-[#D1D1D1] mt-6 ml-[22px]"></div>
         <p className="text-[13px] font-kanit font-bold mt-1 ml-[22px]">
           {props.year}

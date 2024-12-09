@@ -12,10 +12,10 @@ const Herosec = () => {
           />
         </div>
         <div className="mt-20 ml-14 mr-10 sm:mt-28 sm:ml-48">
-          <p className="text-[27px] text-center sm:text-[62px] sm:text-left font-kanit mr-10 mb-16 sm:leading-[60px]">
+          <p className="text-[35px] text-center sm:text-[62px] sm:text-left font-kanit mr-10 mb-16 sm:leading-[60px]">
             Crafting custom software solutions that meet your unique needs.
           </p>
-          <button className="border ml-20 py-3 px-4 sm:px-7 sm:ml-0">
+          <button className="border ml-16 py-3 px-7 sm:ml-0">
             GET IN TOUCH
           </button>
         </div>
