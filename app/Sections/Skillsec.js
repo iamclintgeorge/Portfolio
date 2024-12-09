@@ -23,10 +23,10 @@ const Skillsec = () => {
             <p className="mt-[12px] ml-[40px] text-[25px] font-kanit">
               Programming Languages
             </p>
-            <p className="text-[#191919] text-[20vw] font-kanit relative ml-[-45px] mt-[-100px] p-0 z-[-1] sm:block">
+            <p className="text-[#191919] text-[20vw] font-kanit relative ml-[-45px] mt-[-100px] p-0 z-[-1] sm:hidden">
               Skills
             </p>
-            <p className="mt-[320px] ml-[40px] text-[25px] font-kanit">
+            <p className="mt-[295px] sm:mt-[320px] ml-[40px] text-[25px] font-kanit">
               Frameworks / Libraries
             </p>
           </div>
@@ -38,7 +38,7 @@ const Skillsec = () => {
             <p className="mt-[12px] ml-[40px] text-[25px] font-kanit">
               Social Summer of Code
             </p>
-            <p className="text-[#191919] text-[20vw] font-kanit relative ml-[-45px] mt-[-100px] p-0 z-[-1] sm:block">
+            <p className="text-[#191919] text-[20vw] font-kanit relative ml-[-45px] mt-[-100px] p-0 z-[-1] sm:hidden">
               Experience
             </p>
           </div>
